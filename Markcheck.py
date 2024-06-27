@@ -1,8 +1,7 @@
 mark = float(input("Enter the Mark: "))
-if mark == 100:
-    if mark >= 50:
-        print("Pass")
-    else:
-        print("Fail")
+
+if mark >= 50:
+    print("Pass")
 else:
-    print("Invalid Mark")
+    print("Fail")
+
